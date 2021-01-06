@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 10rem;
+  margin: 20px;
+  transition: 100ms;
+}
+.btn:hover{
+  transform: scale(1.2);
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
