@@ -1,0 +1,291 @@
+h2{
+  font-family: Biotif-Bold;
+  font-weight: 100;
+  font-size: 350%;
+  margin: 0 auto;
+}
+h1{
+  width: 50%;
+  color: #232320;
+  margin: 0 auto;
+  font-family: Recoleta;
+  font-weight: 100;
+  text-align: center;
+}
+
+p{
+  font-family: Biotif;
+  font-weight: 100;
+  font-size: 21px;
+}
+body{
+  font-family: Biotif;
+  margin: 0;
+  text-align: center;
+}
+hr{
+  margin: 100px auto;
+  border: none;
+  border-top: 5px dotted #f3bad6;
+  width: 5%;
+}
+.navbar-light .navbar-toggler-icon{
+  background-image: url("images/hamburger.svg");
+  outline: none;
+}
+.navbar-toggler{
+  margin-left: 50px;
+}
+
+.nav-item{
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  font-size: 21px;
+  display: inline-block;
+  position: relative;
+}
+.navbar{
+  background-color: #ebd4d4;
+  padding-bottom: 15px;
+  /* color: #232320; */
+}
+.navbar .navbar-nav .nav-link{
+  padding: 0;
+  color: #232320;
+}
+/* .nav-item::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  position: absolute;
+  background-color: #232320;
+  bottom: -10px;
+  transform: translate3d(0,5px,0);
+    transition: all .2s cubic-bezier(.175,.885,.32,1.275);
+}
+.nav-item:hover::before{
+  width: 100%;
+} */
+/* .nav-link:hover{
+  color: inherit;
+} */
+
+.Top{
+  background-color: #ebd4d4;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.Mid{
+  background-color: #fff0f0;
+  padding: 100px 0 50px;
+}
+.Bot{
+  background-color: #ebd4d4;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.Top-cloud {
+  border-radius: 30%;
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.Bot-cloud {
+  border-radius: 30%;
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.profile1{
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 100px 0;
+
+}
+.profile2{
+  width: 50%;
+  margin: 0 auto;
+  text-align: right;
+  padding: 100px 0;
+}
+.Jercydy-profile{
+  position: relative;
+  bottom:  50px;
+  border-radius: 100%;
+  float: left;
+  margin-right:  30px;
+}
+.Thearann-profile{
+  position: relative;
+  bottom: 50px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+.contactMss{
+  margin: 50px auto 50px;
+}
+.btnBase {
+  font-family: Biotif;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    cursor: default;
+}
+
+.btnBase:hover {
+    cursor: pointer;
+}
+
+/* ### ### ### 01 */
+.btnStyle {
+  border-radius: 20px;
+    color: #ffffff;
+    padding: 15px;
+    background-color: #232320;
+}
+
+.btnStyle:hover {
+  border-radius: 50px;
+    color: #232320;
+    background-color: #f3bad6;
+}
+.footer{
+font-family: Biotif;
+text-decoration: none;
+letter-spacing: 2px;
+margin: 5px 20px;
+color: #232320;
+position: relative;
+display: inline-block;;
+}
+.footer:hover{
+
+  color: inherit;
+  text-decoration: none;
+}
+.Cred{
+  position: relative;
+  bottom: -10px;
+}
+.gameSpan{
+  color: #f3bad6;
+}
+.footer::before{
+  content: '';
+  display: block;
+  height: 5px;
+  width: 0%;
+  position: absolute;
+  background-color: #232320;
+  bottom: -10px;
+  transition: all ease-in-out 250ms;
+}
+.footer:hover::before{
+  width: 100%;
+}
+@media (max-width:600px) {
+  .mountain {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width:1350px) {
+  .Top-cloud {
+    visibility: hidden;
+  }
+  .Jercydy-profile{
+    float: none;
+    margin-right: 0;
+  }
+  .profile1{
+    text-align: center;
+  }
+  .Thearann-profile{
+    float: none;
+    margin-left: 0;
+  }
+  .profile2{
+    text-align: center;
+  }
+}
+@media (max-width:1350px) {
+  .Bot-cloud {
+    visibility: hidden;
+  }
+}
+@media (min-width:1000px) {
+  h1 {
+    font-size: 4.5em
+  }
+  .sub {
+    font-size: 1.5em
+  }
+}
+@media (min-width:1600px) {
+  h1 {
+    font-size: 6.5em;
+    letter-spacing: -2px
+  }
+  .sub {
+    font-size: 2.5em;
+  }
+
+}
+
+/* @media (min-width:1000px) {
+  .sub {
+    font-size: 1.5em
+  }
+} */
+/* @media (min-width:1600px) {
+  .sub {
+    font-size: 2.5em;
+  }
+} */
+
+@media (max-width:2000px) {
+  .Jercydy-profile {
+    width: 15rem;
+  }
+}
+@media (max-width:600px) {
+  .Jercydy-profile {
+    width: 10rem;
+  }
+}
+@media (max-width:2000px) {
+  .Thearann-profile {
+    width: 15rem;
+  }
+}
+@media (max-width:600px) {
+  .Thearann-profile {
+    width: 10rem;
+  }
+}
+@font-face {
+  font-family: 'Recoleta';
+  src: url(font/Recoleta-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Biotif';
+  src: url(font/Biotif-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Biotif-Bold';
+  src: url(font/Biotif-Bold.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
